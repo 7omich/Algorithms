@@ -6,12 +6,12 @@ using namespace std;
 
 int main() {
 	cin.tie(0);
-    ios::sync_with_stdio(false);
+	ios::sync_with_stdio(false);
 
 	int n;
 	cin >> n;
 
-    // vector
+	// vector
 	vector<int> vc;
 	while (n--) {
 		int x;
@@ -23,10 +23,10 @@ int main() {
 
 	for (int i = 0; i < vc.size(); i++) {
 		cout << vc[i] << '\n';
-    }
+	}
 
-    // array
-    int arr[n];
-    sort(arr, arr + n);
-    sort(arr, arr + n, greater<int>()); // desc
+	// array
+	int arr[n];
+	sort(arr, arr + n);
+	sort(arr, arr + n, greater<int>()); // desc
 }

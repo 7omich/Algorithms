@@ -8,7 +8,7 @@ typedef pair<ul, ul> P;
 
 int main() {
 	cin.tie(0);
-    ios::sync_with_stdio(false);
+	ios::sync_with_stdio(false);
 
 	vector<P> vc;
 	int n;
