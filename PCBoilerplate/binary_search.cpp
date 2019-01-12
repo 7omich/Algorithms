@@ -19,7 +19,7 @@ int main() {
 
 	int x;
 	cin >> x;
-	if (binary_search(vc.begin(), vc.end(), x))	{ // returns boolean
+	if (binary_search(vc.begin(), vc.end(), x)) { // returns boolean
 		cout << "I found " << x << '\n';
 	}
 
